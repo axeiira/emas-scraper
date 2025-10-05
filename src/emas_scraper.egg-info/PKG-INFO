@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: emas-scraper
+Version: 0.1.0
+Summary: Web scraper berita otomatis untuk PT Merdeka Gold Resources Tbk ($EMAS) berbasis Google News
+Author-email: EMAS Scraper <noreply@example.com>
+Requires-Python: >=3.8
+Requires-Dist: requests>=2.31.0
+Requires-Dist: beautifulsoup4>=4.12.2
+Requires-Dist: python-dateutil>=2.9.0
+Requires-Dist: lxml>=4.9.0
+Requires-Dist: transformers>=4.30.0
+Requires-Dist: torch>=2.0.0
+Requires-Dist: textblob>=0.17.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"

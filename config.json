@@ -1,0 +1,13 @@
+{
+  "keywords": [
+    "$EMAS",
+    "Merdeka Gold",
+    "Merdeka Copper Gold",
+    "PT Merdeka Gold Resources"
+  ],
+  "google_news_base": "https://news.google.com/rss/search?q={query}&hl=id&gl=ID&ceid=ID:id",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+  "timeout": 15,
+  "max_items": 50,
+  "output_file": "news_output.json"
+}

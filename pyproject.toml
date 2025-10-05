@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emas-scraper"
+version = "0.1.0"
+description = "Web scraper berita otomatis untuk PT Merdeka Gold Resources Tbk ($EMAS) berbasis Google News"
+authors = [{name = "EMAS Scraper", email = "noreply@example.com"}]
+requires-python = ">=3.8"
+dependencies = [
+  "requests>=2.31.0",
+  "beautifulsoup4>=4.12.2",
+  "python-dateutil>=2.9.0",
+  "lxml>=4.9.0",
+  "transformers>=4.30.0",
+  "torch>=2.0.0",
+  "textblob>=0.17.0",
+]
+
+[project.scripts]
+emas-scraper = "emas_scraper.cli:main"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0.0",
+  "pytest-cov>=4.0.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--strict-markers",
+    "--strict-config",
+    "-ra",
+]

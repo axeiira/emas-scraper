@@ -1,0 +1,2 @@
+[console_scripts]
+emas-scraper = emas_scraper.cli:main

@@ -1,0 +1,12 @@
+prompt-1.md
+prompt-2.md
+__pycache__/
+.venv/
+.env
+*.pyc
+.dist/
+dist/
+build/
+.coverage
+.pytest_cache/
+news_output.json

@@ -1,0 +1,473 @@
+{
+  "analysis_metadata": {
+    "analysis_date": "2025-10-05T16:06:51.165312",
+    "source_file": "news_output.json",
+    "total_articles": 37,
+    "analysis_methods_used": {
+      "indonesian_bert": 37
+    }
+  },
+  "sentiment_summary": {
+    "by_sentiment": {
+      "positive": 2,
+      "negative": 1,
+      "neutral": 34
+    },
+    "by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 34
+    },
+    "sentiment_percentages": {
+      "positive": 5.4,
+      "negative": 2.7,
+      "neutral": 91.9
+    }
+  },
+  "detailed_results": [
+    {
+      "title": "Merdeka Gold Resources (EMAS) Siap IPO, Cermati Saran Analis - kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdWVibDJpN3VCajAxSHdWRWgtN0tIRlhPY29NTXNvSlRwOUF3SDBxOUEtQ1kwTEVFMWVUMWZVdFFqelpnUFlYNGNBXzQybkRtR3NQalFuX3psYVhWMGMyR0VsYTdZZXBXMkZzOW9ocENBRERiNGhGMHVtNmt4YUUtV2pXOHdIeEV1TTdNRFpkc2xDUVpwRG1GbtIBkAFBVV95cUxNWG51elV2TXQzT1Ewc041ZUhSLWs0N3FQWjAtSFk0SGZCUXROWlJfQkwyTFN5RWRXVWdheXN5c1BndjdIaW5KMk8xR3FTQW54ZVNTbFFUVXBNY3IyZjBPSXlqVVJvRDVxTXdjc1pfcVVnbjgwZDIwY29iRVpRb0VZTm9KdGZDaFJ2aFZ6OFdSM04?oc=5",
+      "source": "kontan.co.id",
+      "publication_date": "2025-09-16",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Catat! Besok Penawaran IPO EMAS, 4 Sekuritas Kini Ikut Gabung - CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLUVtWlc0N2tSaVZacm9IRnJaRmJOOE5jZkNTMUkyV29ZYkZBdG5nTVdMcWtoM1NHVDJmRWJ6QkFjRVJxdTA4S3FRcjl0X083WFVxN0lTTTRCZ0hUNzhHNWt4aTRKandqbHQwX1JtVEJ6RkRkeU95ZFNmQzNFeHNUbUVoZTVZck92YXV5ZHVrT3RmOFdFVmRVQnRsejFYaENiVDlFUmZsbGxseEdibDZaRU5vaHJfWFgzUTZIdnZybENlUQ?oc=5",
+      "source": "CNBC Indonesia",
+      "publication_date": "2025-09-16",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Merdeka Gold (EMAS) Patok Harga IPO Rp 2.880 - investor.id",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSW5zYlNpel9xbVVSWDQ1STVlRzJSSmpteTVmODVnMVFKeHpSWDRhM0ItMUdHaWluU2dYWlZoM2dicXpuTEZNZjZTaVBmQ21lbHR5YVFLNTVsV1lZeUV3cGFWdlVSQVVEQ2pUX2pGRHdmTkRPMjRnRmJILW56OS1Kbw?oc=5",
+      "source": "investor.id",
+      "publication_date": "2025-09-16",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Rencana IPO Merdeka Gold Resources (EMAS), Bidik Dana hingga Rp 4,88 Triliun - Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORVBYb2lZdzBGc1B0TGVsUXJTQWttVHNCSk5WbHZrM1pRYkRyZ2hkZ3JFSnowbzlJd0ZodmRhTTZ1TjB0b3Z6OTNyMjJLZFZMdENRQ2V4Q2JWaHNEaVNRTE1sUlJEbnRKMy1WYThZMDdQRUd2cGI3VDU4eWV4Tl95d2pDMUlxUE9jenEzNTBieFBlaWtsd1phVjZFRWQxdVRfU0hCdHRPVlpMRWxyMkl6QXB1aFpYV0ZsLWlRc0ZHdUk?oc=5",
+      "source": "Kompas.com",
+      "publication_date": "2025-09-08",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Merdeka Gold Resources (EMAS) Siap Gelar IPO, Ini Valuasinya vs BRMS & PSAB - Bareksa.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSURtZEctcXZsZHBja2RTVFpsS0NtNVdYeFhnU01ycXJ6U1hkclhSM0JJaFpmQ0swLXEyQkpiNE5Qa1p5em1vZDBQTm5NRUxHNUlTWFJscUo5OUhJdUpQOXpUSzVBTXEzbzZja3NlYmRfdzNQNFB6ZVNXc0FRYUk5eUlCSk1ER19NOUNwczBtMnNyYk1GNmc4UkNhUnlFLW1ucXNwVk1Vd0RSZzJhR0U4NGFBeVdKcjhyS1E?oc=5",
+      "source": "Bareksa.com",
+      "publication_date": "2025-09-10",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Pedoman Lengkap IPO EMAS Anak Usaha MDKA, Cek Jadwal & Faktanya - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqdDNIalBGNlEzaVhSbGFYZ2pXalpMM2dPX3BFR1VYY1c2QWdDbTNENDFUOXd3Qkw2Z0tlS1RhYjJMUzV1WmJRRUdSUHVzc0Q0TVV4YWdIOG9tZFY0ZnZDbDkyWVJDZ3VQNmc?oc=5",
+      "source": "Ajaib",
+      "publication_date": "2025-09-08",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "IPO Merdeka Gold (EMAS) Tetapkan Harga di Rp 2.880, Seperti Apa Prospeknya? - Katadata.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZHJNaXlSZDhtdWEzamxjdmVYUWYzX2F3TkZLVWtiQ0lnamNrV0N3RjRPOEtvQ3ZwZUNHbVFNM25JYlNCdVJqZW53R3c5MGdEMjNuUllDckVhVHhrWGcyNTJCZWxXamdhdWN2OWxxSTVWWnRQZjVhSzRObElscUJqSENralF1d3NTVFFJeG1vTFVWWDlPcjZvV2hQa21tUnFUNW1RdG5yUmh4cVNWV0dubWhNUHFJVXJubU1OdWJqQ3DSAccBQVVfeXFMTmZKbm94QnE1NFYwUTg4NHkyVkVReFBaNnptOXY4YVpqWVdxeHhSQ3d5REphUFBjNl9SaFVzTkNtLTlablVyYmx0T01lWmg2clMwOVJQb1BKUkt2QlpmQk8tRUduV3VzdExadjZXS091OWwzV05fSWdEYTFRRXZsWkEyYnFyWWd4Q1VTQ2RneFVrTW4zeDFnMlQyTTNzc1Nla0tjZzRiVUUzYjJmblBOYjBoODVMRnFjWFNDSnRHcEhPRzFjR2g5UQ?oc=5",
+      "source": "Katadata.co.id",
+      "publication_date": "2025-09-16",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "IPO: Investor Sudah Bisa Pesan Saham Merdeka Gold Resources Tbk (EMAS) melalui Sistem e-IPO - Pasardana",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUVRpR29SQ3RQVC1XbThPUHRoYVdueDc0RzNqM1p4aFRORFFVQWt1Rl9NYzVpOTFwTm9fRlhncGRxV1p4cjdiSV9DT1JZUHoyazQ4alhuTXBublRsNDMtWld3czA3TC1sTkVPUUdIMnVnQS1Oc1hha3pvWG1SZFdZbDAydGp0ZnVxcHFwTlJOcmxKUEthSkFIV2lhWXNlclN6MDFuaEJ1NmdoRmpDNkI3TV84cFk2TFljMjBTelFaakg5NzA?oc=5",
+      "source": "Pasardana",
+      "publication_date": "2025-09-11",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "IPO Merdeka Gold (EMAS) Tetapkan Harga Pelaksanaan Rp2.880, Dipandu 7 Sekuritas - Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZDdiYXpNTFZ5VWFFaHJRMG10bEg1UnVXNFZYUVo4bHFGMHEwWDhpWlNtNXVacEtxZ0xhZmQ3eHhNajZkRllmcVBibzFRMjFtczFRT0pDRlU5QWc5UXZrRS15WVkyb1F0dDJZNHZNcWhyR1VKbEN6RmpRelhYVkIxRlVNLTJ6dFVpZjlrUEZyM1B3dUVUb2FnaXEyTVFRNkl5RnhlNW5sQjJSQUVnMEkwZnl6R2JjYjlYUktIazhDc3hURDZFWGc?oc=5",
+      "source": "Bisnis.com",
+      "publication_date": "2025-09-16",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "8 Fakta Seputar IPO EMAS yang Merupakan Anak Usaha MDKA - InvestasiKu",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aUEczTktIVlM2cy1lbm5tNlBpOTVxbU9fcHhNREVUbEJzem5PamM2b2lSUTk4V3dyWXdKdjFCTGI1UDRwVllKZVFrQ1dDeHNtM0Z6YXlVMnlWbzRyQmdiYmx0eU42UQ?oc=5",
+      "source": "InvestasiKu",
+      "publication_date": "2025-09-09",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Anak Usaha MDKA IPO: Incar Dana Rp4,86 Triliun, Berapa Harganya? - CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTDZoVjRCUmdGX0FnRjd6dzRKX1B6WDRSWUNfUzdEV0NvdndpQy1uM3JfQ3g4a1ZfU3czWkpPNmJFMXNhNllVUWQ1TDNITlhaS2hRX1ZxX3ZIRkcxTURhblJTVXF4dFZRU3VzaWtNd0laby1ONHVrVElvaEYtZHBtQjlKa1Q3V0FSS290TWxVRWtoSW9PM0lXaTJ0Sk9tZy1rR2Q1OFcteDM4SGIwODZlRkZIaHZ5YmNRS1JFb3VkSk5mRm8?oc=5",
+      "source": "CNBC Indonesia",
+      "publication_date": "2025-09-08",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Market Cap EMAS Rp 49 Triliun, Saham MDKA Harusnya Segini - investor.id",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS2NDVng3c2Q0VnFkblBoYncxYTBNTVJQVU9EeTVLVWFZNHc2aUphSE1PTmVzSUtEWG81QklybjVUMzJ0M3hPRGNobVJiUmhqTE41MUZkUWVXMGk0MXg0SndwX2dFcWM2TEpaZExzd2VSWGNJUDBRdFdXTERlQU1rdHJiWEFpbmlYdnN5eURYNEJzTElB?oc=5",
+      "source": "investor.id",
+      "publication_date": "2025-09-12",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "3 Konglomerat di Balik IPO EMAS MDKA, Ada Boy Thohir! - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KTkhrbXlwVVJpajlvbS1yeW5EZF94bDZqRjdoT2YwTEtrYmZiMHI3d0lyUmpDU3hwT19aQnVCNUpreDRtV1NQekpRSjBzRFltWDRn?oc=5",
+      "source": "Ajaib",
+      "publication_date": "2025-09-09",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "IPO Merdeka Gold (EMAS), Begini Porsi Penjaminan dari 7 Sekuritas - Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRnFPWEo3RVlaa194aEdnU05QcmNJRE5aek9jNjhyM0xqSEo0cC1ITXE0SGpUZkk4MkJlYTVTNWVtUFpvNURyVUlpcmJORXZVOVZmUGRESGFFTFJiemsxajN4SDVubk1haTluajVMLUVmdWNrS3R2bnNtbnU4aTY4ZktHOC1mbVhGRy01c2cySVNhQzRXakY3azlSOGRjX2xYc0xvbUtUeXJCWUp6bmZRMERmRzI?oc=5",
+      "source": "Bisnis.com",
+      "publication_date": "2025-09-16",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Merdeka Gold Resources (EMAS) Tawarkan Harga IPO Rp 2.880/ Saham - CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRjFjVUlaaEVEOUsxZldqR0NOUVJCSlF1NE0zTC1CNExyLTdleXhEODlVWm9Za1Yxb2I0TWNIQnQ0S3NoU2pWXzJkZi1sU1k0NUhlX3A3WEgxM1dDQ013NjlkZEFKdHAzSE9XbnozMFdRdVlBdjVaLWFlcHU4MjZoQW9tUVkyVTNWM184dldiUXJic3JXa3dlOFcyYVdBMGNfQmxRdU5kYjllS0dldDdTQzdxWnB1NktFQWF4T29FVi0yR0E?oc=5",
+      "source": "CNBC Indonesia",
+      "publication_date": "2025-09-17",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "7 Underwriter IPO Merdeka Gold (EMAS) Terbaru, Siapa Saja? - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10bHNPVzRvTjVoaVpvMmNjcU5TdzRTU2lzVWtYYnBDYzgxM1c4UzVtWGpEc0hyNnlPZGFkQTlYQ1VGLUZfNF84RXJ0SUJJQkdCWGtDSDR5cTZ6aXAzbUdDZ3dZRHhSZ00?oc=5",
+      "source": "Ajaib",
+      "publication_date": "2025-09-12",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Masa Penawaran IPO Merdeka Gold (EMAS) Milik Boy Thohir Berakhir Hari Ini - Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWFM4NDF1Nk9DbTlFZkE1Mk5jR043UGNoNEF2MVdRYjY1Vm5mbG9zeGVwc1FiNFpMTmU1QlBkdEZmeGkyTzRlMVZhZmZFM2hlYWhLQV9zeDNUbk1zMTcya3lWcEJ2RmlOS3ZiSWk0TjFzU0ZWYkxPYW80enVTdFJiWUs3TXFkcG85SWpQOGdjNHBvUUNONzU1Sjk5bmtNZElMYkxZSHRzc1hNalk5QXdycHNBdFdvNjRZNGlUejln?oc=5",
+      "source": "Bisnis.com",
+      "publication_date": "2025-09-10",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Bedah Saham IPO EMAS: Bisnis, Prospek, dan Kinerjanya! - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZNU83bVpCSG1sUmpjbHM3eTRhWjhOeXR3MzBVUnUyb1gzVm1vU29WNU9vV3Vub2tmVDFGR3Uydm5uYkNnN0gzWm1fcHZxckF3ME1j?oc=5",
+      "source": "Ajaib",
+      "publication_date": "2025-09-08",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "IPO EMAS Dimulai, MDKA Targetkan Produksi Melesat 500.000 Ounce - Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQXFRaXR2Y0VLWG82T2pqaWxSSHdIUG9ZcWsxUDVKaUdPNDNETmg0Mk1GaC1xQVJTYmZIMW5DcmY5a2o4U29DUXVHX3ZJYV9EOHpac0lNb3BreEJ0S29jZ004RlVMZFFmODdVVWlFRVdfd0JsNTcwT3RCVS1ubE1jbGtrejAtN1VyS0d0eXVtcWVyYWJfaUJCU18zTGd3NUpxdGRPeFg1UUdHYk9hcUdjSkdpYw?oc=5",
+      "source": "Bisnis.com",
+      "publication_date": "2025-09-08",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Harga Saham IPO EMAS Rp2.880, Beli Mulai Besok! - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5mOHRJLXBsdUwtVjBEQVVzWFZrb0RuODBPMDNOS1ZxaFpMemt6QmQxQWFYbFVqRjJvWVBTbjBrbGs1NnJmaE5MNkNMakFoQQ?oc=5",
+      "source": "Ajaib",
+      "publication_date": "2025-09-16",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Penjatahan IPO Merdeka Gold (EMAS) Milik Boy Thohir Berlangsung Pekan Depan - Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVHgyVl8zMEZYWVlsYkpuQWdzdjJDRGt2WU5jM3MyZi1TNU9sRC1FaVpJR3hqeFBCblZWQkZjN3lGMnVCcFZJakw3Qmg1SUdjOTB6V1FlWTlKSThaRk1FRWNLQkJxdkdVTlZzNDBpbGdaaUFzcTA4OERCdGZpeFJWMlRneFFfTkZJQWRncmhZUFlLakN5Q2ZKeFVoZG95ejN6b1dhYURuX1VYSmhVQjB3UWZRaDdyMG1VeWZhWFdEMjE?oc=5",
+      "source": "Bisnis.com",
+      "publication_date": "2025-09-14",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Perhatikan Hal-Hal Ini Sebelum Beli Saham IPO EMAS! - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9aUGYzVHYtaWVsa3BTVU1OZjFfcWl6QjJDUWNSVTk4bFFLNFd5ak5jb1R5eF9YaGJmQS04Z1RRTFFEeDJ1MTVwR3Vqa0M1aVlxVDFBQXA4eldpRWlTcFVWaUI5SHFScndITjQ0SkZZWDBPNHA2bVA2T25Cbw?oc=5",
+      "source": "Ajaib",
+      "publication_date": "2025-09-08",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.962,
+        "confidence": "high"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "IPO Saham Emas Merdeka Gold Apakah Potensial? Berikut Jadwalnya - Katadata.co.id",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbjlpaEE2d2ZGNXZfd09ydldHUE9ZaUxJcWVKcHgwRDFtazhVLTlEVk5oRWx6ZUJrMmVwa3hEUnZGNGVRUnNvZm9Xc1dUWnJfNUlEaXJ4M2ZBcm5YcFBvLWM5YXdJbDBIbmVJVmIyb0J0WjEyTzUxd1ZzRm1Wb3BmMVpFd3c3QXRJTmtHTnNyMDZVRUZFeEp6ZEo0MnRNTHp4cVR1TmIwWmpRZnFOMmlnX0NrSVloZ9IBuwFBVV95cUxQYjVBMGVjYnJSMExSdHJVVFpGTGFZS0FpREt0LW9ESWw5S0czbXhWRXBiX05vV0FKV0RaLW1NUmxoU3pYRElmS2VmLVNLM0VjZlhGRWZiQ3R6YWZvdjZJOWdIaWI4b3ZHVzR6NW53aExsVUhaSnhobDI4QkRKT2ZsM2hxSHhHR2pnQW14UXZFVnRodjFGelItd3Nyb0dBU01sWnFLOGlpYndRdTJFUjlLOHhtT21KVU9lX2lj?oc=5",
+      "source": "Katadata.co.id",
+      "publication_date": "2025-09-15",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "IPO EMAS Tawarkan Harga Rp 2.880, Potensi Cuan atau Terlalu Mahal? - kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU2djX3F6TU9CN0lpSHM2czIzV0ZNeUxpMGFJWXBHVnR3X1k5ZUtqZ1BITXBrcXFWV3ljU3JOMm1tQjBPcUNvZGg4SWRTRThKdTFHdGtOXzVpakhfQk9OYWFqNGdkTEozMWtxbWZ3eUVDZUQwSkJ2MGdDV0JVT19JQk44MDJmOGlXY3Y5YWZqSEdqdkJYaF9Ldk5aUVdZMi1q0gGYAUFVX3lxTE9LNWZHOXhlakpZSGlibEV3S1dwb01KTU5VNFlIWE1RcmFmZXY4R0Z4TXRKMmJKMWpuRU94b29EelZOX285azdrakd3ckNWblBrRFlBdmJyNWhjWlcycGFPVTM1OTktTVlSNVM3YVl3V3JjTGFpTkRQeGVuM2htTGs0QjBOTDlVZG5UZFNXNVRlODRib0VKb0RQ?oc=5",
+      "source": "kontan.co.id",
+      "publication_date": "2025-09-17",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Tambang Emas MDKA Dikabarkan IPO Bulan Depan - CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUENzaUtTUms3Nm9JbElzNzRraDBYYVFvZ29XUGNCVW95WVlFVnNuWDEwOU16VExaY3dEeVUzOWhoMTY5ZmpZOHF2U1VOMTIzVFRkWG1nWE4zcENNNVB5aEZGQ1A0SkVnUl9VaVd0ZEZyQlRkYlF3VVUtclItU0t6c2xwbnFORHZkTk9ZS3JKVlRSYUtrWVc0WGVGelNwM2NxeVgtMktUUXVtSm81ZHc?oc=5",
+      "source": "CNBC Indonesia",
+      "publication_date": "2025-08-28",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Mengapa IPO EMAS Potensial? Simak Analisis & Cara Belinya di Ajaib - investor.id",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVDZpWVpoUUppUkoydDdXUk1uOGlqQU5Uc2VrYlh0eTRwOTItRFhDTXJUeWIzaGt2VFR5VGctQ1FTNDEyZURKT3A1dEtNUC1HUWlISUFDM0JhOFUzSl9pa0ltdzhpRnlSdFFfRC11bEVwYWU0N0xmRlNSVVBzRmItSmFGU1BRNDFYY0pOWmxibk05aF94MHh4bjIyRWo?oc=5",
+      "source": "investor.id",
+      "publication_date": "2025-09-13",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Underwriter IPO Merdeka Gold (EMAS) Bertambah Jadi 7, Ada Broker yang Tak Aktif - Katadata.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUlBZcy1sZHYxMXdOTDJEdDY4c3M1SXNaNVpHSmYtT3Z2LWhwRWNEd3cxR2VoX2ktVEtjWkZPeHl2ZEtOS05LQzVqTWNPbldjcjVmOWNJWE12cGdPUjlDOHNoZEdUY3ZzY1Q0X3RHY2NiMGdQUi12bDJjZlZKUHFZNFRDeFJlcGo2Y09lZ2hoUllId0ZGOUk2cTB3bjdSS3F1WWRRVzhXX1AxdHZxOEF3cGl2dU1tM3lCa3ZVTjdGZ2lZLWRYQ1hXNdIBzgFBVV95cUxQZFJ3dk50MDE3TVJhbjZ6c3VFQUxES0NCWEZ3M3hFMDNHRlo0cHhOV3JiemhoemowelRCc2g1bWlfSE5aUENJOVhtamh0OTkzTkZ4OVlTTmxKWVRrSVhWSjFJMno5cEg5MUhTbVRtc1dLVi16WGRFLUxLZXBvcVdwbnNkV0tHOXVuNVlfNlV4SExTZVRJM3pSSUJkODF2a3VUVW95TXlwRWdMOXZrbE84WGs1SEo4RjhwOXJUcW1fcTlGMjZoMTlxQnI3SGF3Zw?oc=5",
+      "source": "Katadata.co.id",
+      "publication_date": "2025-09-11",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Bawa IPO EMAS, Segini Target Saham MDKA Terbaru - Bisnis.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeXF5UVRHUUV4ZElUZDdRVldNak14RnNSX1NNLThLZG5vQUNtSkkwNldZNHkwMVpETjJUV2FVckdCS1AwY0FHbllhalc1QjlCZmlUcjJwUW1rNEhKU210UFZWQWRrR3dKQmprUk9YOUMxSWROOVZoSVVZX19vWm9NYkRKUFIyLWJTcDIyQjQ2V3Ffa0I0WGpQak1yMVY?oc=5",
+      "source": "Bisnis.com",
+      "publication_date": "2025-09-08",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Baru IPO, EMAS Ternyata Dimiliki Garibaldi Thohir? Ini Fakta di Baliknya - TvOneNews",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOG5JWEhSZUxfVUV0WFFzX255WnVDblcybGwxaWlHWGJMYlNMSk9nYjR4T3A0a0JNVzE0d002MDd5RjhWV0dweWstTVkxUnIyTDRUV1VqSnlvYlc4ckwyUWlBQjEwNGhjTS0xbmlqQUZvNmtCcnNUQlJVRTF0SVgzcjhXOEdVdy1KSTdLMTVHQ0VmZmFFSXRVSnZLT2JXbEN2Tk5paDFSVDVEQ3hKMkVtNNIBtgFBVV95cUxOTmlXcWFHeU9neTI3eHlvMFJjSVVpakk1TnVOTE1nblNKOUVpYTI2Mmp1RXhPTmtibUZ1S3haRDR4TGtIb3VQc1k3UmxaQXIzVkdHRUJhelRzWVVVb3lHOVJkX1JmMDJ6WEtXVzN5b1ZILWtYaEVNV08xc09GUVJwRjJmOFR2a1pfTHlYd1dsRTY0TXdISzNHRk9yanFTYkljdGtGYkJrY2NaWnhRTjRJS0Z2X19Jdw?oc=5",
+      "source": "TvOneNews",
+      "publication_date": "2025-09-10",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Afiliasi Saham IPO EMAS: Apa dan Kemana Saja Hubungannya? - - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YNXpBcmpCeGYtUjdmWV9lbTlGa2pzSE1TNkNzcTE2TkM1Z3loTEt6SnNXNi1tT3A1MFFVMHZ3Z0pzd0dyMk45My1UMnFjVzJzSFhfYTBuV0s?oc=5",
+      "source": "Ajaib",
+      "publication_date": "2025-09-11",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Cara Beli Saham IPO EMAS Di Ajaib, Mudah dan Banyak Bonusnya - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWTdocmFpMzlGdGxIQ05rc1NTbDh1bGg0eXhlT2s3U054cDRvSTZoSjlqbzBySERnX2pNd3hzckIwRXBCUkJBSFlLVUQ2SHhvQl85dmNMTlVoOXlJWnc4WjRfOHplRFhWTHR0Y09JWmRudmNsREpTdGwyRkVHWFR1alpNRUJ5RTQ?oc=5",
+      "source": "Ajaib",
+      "publication_date": "2025-09-10",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.999,
+        "confidence": "high"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Belum Untung, IPO EMAS Sudah Dibanderol Mahal - Market - Bloomberg Technoz",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbF9PNml4eXpIeHFndGlhUE1UakVLRU1IZ2doeUFxRm01aGlOakFKTmxqM3JhR004WFFCNUdCaTlfSm14SzdLMjdraWRPQ05xeUlOOEg2VE8yOEwxR29TNjlVOFNuOTNaZHJVR2plVkdTam9sZ1g2R0lRdWtsT0RXZnlvam1heElWT2FYVjVMSTR0aDl5OFJGQjZRbw?oc=5",
+      "source": "Bloomberg Technoz",
+      "publication_date": "2025-09-16",
+      "sentiment": {
+        "label": "negative",
+        "score": 0.998,
+        "confidence": "high"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "5 Fakta tentang EMAS, Saham yang IPO di September 2025 - IDX Channel",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYVJaMG5SeXVNVV9KR05VTzhuNUdxRmtodjV1YkpWTU1nT3MxUXRDX0RSR01YQjNUSXUtdy1rd3k0MnR0aS1iVGxKX0RVY1l4bVpCZXJYZzROYlpodGpzZWJ4YjRoTEtsTEFiMVhMWHlDdXNCQWJOX2VFMDZmR3ExSmltZzNuV3R2TmR2aVFIbjBfMXFyeVRz0gGcAUFVX3lxTE94OWtrcVpKRVZxSlBqaGFqRlR4eHJBZDhDWHFSaDl0SnJGSVJIRF82UnkyMkswZDBsMTBQbmJHd0ZDTEFMWGFkWmRLUGs5azRma0hXdk53UmhNdTY3ZEExbnlFMkNCOTl3Ql9fVEJVclc3TmJ6WVJ5ak11RnNzQmUyNzlObGFlWGZqV0RHUjFDWVJ3TVV0OUxkZ1Z1ZQ?oc=5",
+      "source": "IDX Channel",
+      "publication_date": "2025-09-10",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "EMAS Patok Harga IPO di Rp 2.880, Valuasi Mahal dan Kenaikan Saham Terbatas - kontan.co.id",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVU1yVzBvWjQ2M2htN29mMkdDd2FBUV9UaHI0a1NvZHhsalJDbWpvY00wODFfRG1fcFZOVGdrQXhsUjNxQTM3UkpYYlRTa0JnWi1IVUh1aERzR2RCZ09VcXY3VXc1OW41NTVQdkxsYkRDempndVdDTHNTRFNHb2w0QldQbjZfZjRGeHFTNWFKV3dfQzVzRDVpWXltZFM0b3lSd20yQUF5Ymc5ZGxsNVHSAaYBQVVfeXFMTVEtOGdjeHZTMmY3R0ZyeTRVanVVV2xCMzhpd1YweHJuZm5KSjBkcjltU2dPa0lXcEhFblctUDB0Uy1pdWlhVWhWTkR0NDZPUWRXTmVKLWxXcW0wLWJXaGw5WWlGeXQtSXhCbjhXMVdlbFQwU0k1Sk1mV09kQnU4MDNiRWFOWjJKR000M0RleXY0YTFBVzdMNE02aHMxU19FZVY2MktiUQ?oc=5",
+      "source": "kontan.co.id",
+      "publication_date": "2025-09-16",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "7 Emiten RI Ini Punya Ladang Emas Raksasa: Lagi Tersenyum Bahagia! - CNBC Indonesia",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUDB4OUFyb0RNNUp0OFFyVG5hWUFoUE9IMU4xZXh0VFhzeEc0Vy1xTVNNY2FjeGwzRkltVFZkNGNZVkVOb3k0dC1PZGtoM0JkcnJKTmZRa0hRRnotVHhsMGVxY05WZXhTd2dTRXZXak1WVnFCMDZ2MWFNNThPdEJQT2R1dF91aG5sdmR2bzdYYlNpbnFfSHFpdi11SVlHc2psVE5DQ0ZrS0ZxZTlVc0NxYkpPbHFLZzVqTC1Dajlqd2pPYy1xWGJ2Qg?oc=5",
+      "source": "CNBC Indonesia",
+      "publication_date": "2025-09-03",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Daftar Perusahaan Saham Emas di Indonesia - Ajaib",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5wNGpheGdpb3lqOTJTcTRvYTFwU0htbGhBSVMwcnlwQTV3Vm8wMmN0cjhoVXFuUXhjUzhwYllLbk0wVkRxaW04bHBXS2gzV0E2SUlaSnJSX1RmM2E0RnVwcGU0VWFJeFdfS1BKSGk0Zw?oc=5",
+      "source": "Ajaib",
+      "publication_date": "2025-06-12",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    },
+    {
+      "title": "Saham EMAS Sebentar Lagi IPO, Apakah Prospeknya Berkilau? - Krusial.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTmZlVmFLdFRSbXhSWTUyVUdLckpNMG5OOVhrbUczQS1DQ19XSnU2WnpvVUM4SkE1OXg1NHFpajU1QlZsZm4yLS1fNzIwQXR4RjF3MmRza1BpT0VOYTlRaXdtZ2NWbXNzVWg3YkoxRzVoN2ZFRmUtWGhCNTVqd1Z6bDFIei1DanM?oc=5",
+      "source": "Krusial.com",
+      "publication_date": "2025-09-10",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": "low"
+      },
+      "analysis_method": "indonesian_bert"
+    }
+  ]
+}

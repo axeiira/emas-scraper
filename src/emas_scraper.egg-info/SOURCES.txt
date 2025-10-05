@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/emas_scraper/__init__.py
+src/emas_scraper/cli.py
+src/emas_scraper/config.py
+src/emas_scraper/google_news.py
+src/emas_scraper/sentiment_analyzer.py
+src/emas_scraper.egg-info/PKG-INFO
+src/emas_scraper.egg-info/SOURCES.txt
+src/emas_scraper.egg-info/dependency_links.txt
+src/emas_scraper.egg-info/entry_points.txt
+src/emas_scraper.egg-info/requires.txt
+src/emas_scraper.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_config.py
+tests/test_google_news.py
+tests/test_sentiment_analyzer.py
