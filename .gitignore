@@ -1,12 +1,264 @@
-prompt-1.md
-prompt-2.md
-__pycache__/
-.venv/
+# =============================================================================
+# EMAS SCRAPER & SENTIMENT ANALYSIS - Enhanced .gitignore
+# =============================================================================
+
+# 🔒 SENSITIVE DATA & CREDENTIALS
+# ================================
 .env
-*.pyc
-.dist/
-dist/
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+*.credentials.json
+auth.json
+secrets.json
+
+# Stockbit scraper config files (contains credentials)
+stockbit_config.json
+src/emas_scraper_stockbit/config.json
+src/emas_scraper_stockbit/stockbit_config.json
+src/emas_scraper_stockbit/config.ini
+config_local.py
+local_config.py
+
+# 📊 DATA FILES & OUTPUTS
+# ========================
+# Scraped data
+*.csv
+data/
+scraped_data/
+outputs/
+results/
+exports/
+dumps/
+
+# Sentiment analysis outputs
+sentiments.csv
+sentiment_analysis.json
+news_output.json
+analysis_results/
+
+# Large datasets
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# 📝 LOGS & DEBUG FILES
+# =====================
+logs/
+*.log
+debug.log
+scraper.log
+error.log
+selenium.log
+chromedriver.log
+
+# 🐍 PYTHON
+# ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.Python
+
+# Testing
 .coverage
 .pytest_cache/
-news_output.json
+.tox/
+.nox/
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# 🌐 WEB SCRAPING & SELENIUM
+# ==========================
+# ChromeDriver and browser executables
+chromedriver*
+geckodriver*
+msedgedriver*
+*.exe
+
+# Browser data and profiles
+browser_data/
+browser_profiles/
+selenium_data/
+webdriver_data/
+
+# Screenshots and videos from scraping
+screenshots/
+*.png
+*.jpg
+*.gif
+*.mp4
+*.avi
+
+# 🖥️ IDE & EDITOR FILES
+# =====================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# 💻 SYSTEM FILES
+# ===============
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# 📱 STREAMLIT
+# =============
+.streamlit/
+streamlit_cache/
+*.streamlit
+
+# 🤖 ML & AI MODELS
+# ==================
+# Hugging Face transformers cache
+transformers_cache/
+.cache/huggingface/
+
+# Model files (large)
+*.bin
+*.safetensors
+models/
+checkpoints/
+
+# 📦 PACKAGE MANAGERS
+# ===================
+# npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🗃️ DATABASES
+# =============
+*.db
+*.sqlite
+*.sqlite3
+database.db
+
+# 📄 DOCUMENTATION BUILDS
+# ========================
+docs/_build/
+site/
+
+# 🔧 CONFIG FILES (project-specific)
+# ==================================
+# Prompt files (development notes)
+prompt-*.md
+
+# Local configuration overrides
+*_local.*
+local_*
+
+# 📊 JUPYTER NOTEBOOKS (optional)
+# ===============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# 🧪 EXPERIMENT TRACKING
+# ======================
+wandb/
+mlruns/
+.neptune/
+
+# 🔄 TEMPORARY FILES
+# ==================
+*.tmp
+*.temp
+*.bak
+*.backup
+tmp/
+temp/

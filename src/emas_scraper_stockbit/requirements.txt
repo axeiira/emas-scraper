@@ -1,0 +1,15 @@
+# Stockbit Stream Scraper Requirements
+
+# Web scraping and browser automation
+selenium>=4.15.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Data processing and export
+pandas>=2.0.0
+
+# HTTP requests (backup utility)
+requests>=2.31.0
+
+# Chrome WebDriver management (optional but recommended)
+webdriver-manager>=4.0.0
