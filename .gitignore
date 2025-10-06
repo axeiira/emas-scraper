@@ -27,8 +27,7 @@ local_config.py
 
 # 📊 DATA FILES & OUTPUTS
 # ========================
-# Scraped data
-*.csv
+# Scraped data (exclude main files but keep sample and final outputs)
 data/
 scraped_data/
 outputs/
@@ -36,8 +35,14 @@ results/
 exports/
 dumps/
 
-# Sentiment analysis outputs
-sentiments.csv
+# Keep these CSV files for public access:
+# sentiments.csv - final sentiment analysis results (public)
+# sample_sentiments.csv - demo data (public)
+
+# Exclude intermediate/temporary data
+*_temp.csv
+*_raw.csv
+*_backup.csv
 sentiment_analysis.json
 news_output.json
 analysis_results/
@@ -198,9 +203,10 @@ Icon
 
 # 📱 STREAMLIT
 # =============
-.streamlit/
+# Keep config but ignore cache
+.streamlit/secrets.toml
+.streamlit/credentials.toml
 streamlit_cache/
-*.streamlit
 
 # 🤖 ML & AI MODELS
 # ==================

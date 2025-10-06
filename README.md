@@ -1,13 +1,18 @@
-# EMAS Scraper
+# 📊 EMAS Scraper & Sentiment Analysis Dashboard
 
-A dynamic web scraper for PT Merdeka Gold Resources Tbk ($EMAS) news articles using Google News RSS feeds.
+A comprehensive solution for scraping Indonesian stock market comments and performing advanced sentiment analysis with interactive visualization.
 
-## Features
+## 🚀 Live Demo
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](your-app-url-here)
 
-- **Dynamic news discovery** via Google News RSS (no manual source management)
-- **Indonesian sentiment analysis** using BERT with TextBlob fallback (100% free)
-- **Configurable keywords** via JSON config file or command line
-- **Structured JSON output** with title, URL, source, and publication date
+## ✨ Key Features
+
+- **🤖 Enhanced Sentiment Analysis** - Indonesian BERT with stock-specific term recognition
+- **📊 Interactive Dashboard** - Real-time sentiment visualization with Streamlit
+- **☁️ Smart Word Clouds** - Meaningful words only, filtering Indonesian stopwords
+- **🏛️ Stock Term Detection** - Recognizes ARA, pump, moon, roket, and 100+ financial terms
+- **📈 Trend Analysis** - Time-series sentiment tracking and user analysis
+- **🔍 Data Filtering** - Interactive date ranges and sentiment filters
 - **Comprehensive sentiment reports** with positive/negative/neutral classification
 - **Robust error handling** and logging
 - **Comprehensive test suite** with pytest

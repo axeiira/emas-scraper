@@ -64,16 +64,22 @@ st.markdown("""
 def load_data():
     """Load and cache the sentiment data"""
     try:
+        # Load authentic sentiment analysis data
         df = pd.read_csv('sentiments.csv')
+        
         df['timestamp'] = pd.to_datetime(df['timestamp'])
         df['date'] = df['timestamp'].dt.date
         df['hour'] = df['timestamp'].dt.hour
+        
+        # Show data info
+        st.sidebar.success(f"✅ Loaded {len(df):,} authentic sentiment records")
+        
         return df
     except FileNotFoundError:
-        st.error("sentiments.csv file not found. Please make sure the file exists in the project directory.")
+        st.error("❌ sentiments.csv not found. Please ensure the file exists in the repository.")
         return None
     except Exception as e:
-        st.error(f"Error loading data: {e}")
+        st.error(f"❌ Error loading data: {e}")
         return None
 
 def extract_stock_symbols(text):
@@ -134,6 +140,8 @@ def main():
     # Header
     st.markdown('<h1 class="main-header">📊 Enhanced Stock Sentiment Dashboard</h1>', 
                 unsafe_allow_html=True)
+    st.markdown("**Real-time analysis of Indonesian stock market sentiment from Stockbit comments**")
+    st.markdown("---")
     
     # Load data
     df = load_data()
