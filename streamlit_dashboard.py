@@ -17,9 +17,20 @@ import numpy as np
 import sys
 import os
 
-# Import our integrated sentiment analyzer
-sys.path.append(os.path.join(os.path.dirname(__file__), 'src', 'emas_scraper'))
-from sentiment_analyzer import get_meaningful_words, STOCK_POSITIVE_TERMS, STOCK_NEGATIVE_TERMS
+# Import our integrated sentiment analyzer with error handling
+try:
+    sys.path.append(os.path.join(os.path.dirname(__file__), 'src', 'emas_scraper'))
+    from sentiment_analyzer import get_meaningful_words, STOCK_POSITIVE_TERMS, STOCK_NEGATIVE_TERMS
+except ImportError:
+    # Fallback if import fails - define basic versions
+    def get_meaningful_words(text, min_length=3):
+        """Fallback function for word extraction"""
+        import re
+        words = re.findall(r'\b[a-zA-Z]{3,}\b', text.lower())
+        return [word for word in words if len(word) >= min_length]
+    
+    STOCK_POSITIVE_TERMS = {'naik', 'up', 'bullish', 'profit', 'mantap', 'bagus'}
+    STOCK_NEGATIVE_TERMS = {'turun', 'down', 'bearish', 'loss', 'rugi', 'jelek'}
 
 # Set page config
 st.set_page_config(
